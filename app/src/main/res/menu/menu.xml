@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<item
+    android:id="@+id/search"
+    android:icon="@drawable/search"
+    android:title="搜索"
+    app:actionViewClass = "android.widget.SearchView"
+    app:showAsAction="always|collapseActionView"/>
+
+<item
+    android:id="@+id/add"
+    android:icon="@drawable/add"
+    android:title="添加"
+    app:showAsAction="always|collapseActionView"/>
+
+
+<item
+    android:title="保存"
+    android:id="@+id/save"
+    app:showAsAction="ifRoom"/>
+<item
+    android:title="设置"
+    android:id="@+id/setting"/>
+<item
+    android:title="更多">
+    <menu>
+        <item android:title="退出"
+            android:id="@+id/back"/>
+        <item android:title="关于"
+            android:id="@+id/about"/>
+    </menu>
+</item>
+
+</menu>

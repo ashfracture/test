@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UserLogin</string>
+    <string-array name="省份">
+        <item>湖北</item>
+        <item>广东</item>
+        <item>陕西</item>
+        <item>江苏</item>
+    </string-array>
+</resources>
